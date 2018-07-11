@@ -40,7 +40,11 @@ def platinum_curfew_checker(current_time, curfew_time)
   if time == curfew
     "Time to apparate!"
   elsif time > curfew
+<<<<<<< HEAD
     "You're in trouble! Better get back to Hogwarts quick!"
+=======
+    "You're in trouble! Better get home quick!"
+>>>>>>> ddeb745454d188a97948cc002171e08d3f55e16d
   else
     time_left = curfew - time
     "You have #{time_left} hour(s) left to keep having fun!"
